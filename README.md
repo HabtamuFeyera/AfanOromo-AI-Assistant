@@ -5,7 +5,6 @@ The **Afan Oromo Knowledge Assistant** is an AI-powered application designed to 
 
 The assistant is built using OpenAI's language models, LangChain, vector databases, and FastAPI. It is a robust showcase of advanced AI capabilities while delivering real-world value to Afan Oromo-speaking communities.
 
----
 
 ## Features
 - **Multilingual Query Support**: Accepts user questions in Afan Oromo or English.
@@ -13,14 +12,12 @@ The assistant is built using OpenAI's language models, LangChain, vector databas
 - **Scalable Knowledge Base**: Allows for dynamic updates to the database for continuous improvement.
 - **Fast and Reliable**: Powered by FastAPI and optimized for performance and scalability.
 
----
 
 ## Project Goals
 1. **Knowledge Accessibility**: Provide easy access to Afan Oromo language and cultural information.
 2. **Language Preservation**: Promote and preserve Afan Oromo in digital spaces.
 3. **Technical Excellence**: Showcase expertise in AI technologies, including OpenAI, LangChain, and FastAPI.
 
----
 
 ## Project Structure
 ```plaintext
@@ -67,7 +64,6 @@ AfanOromo-AI-Assistant/
 └── .gitignore              # Files and directories to ignore in Git
 ```
 
----
 
 ## Setup and Installation
 ### Prerequisites
@@ -120,7 +116,6 @@ AfanOromo-AI-Assistant/
   npm run test
   ```
 
----
 
 ## Deployment
 ### Docker Deployment
@@ -133,7 +128,6 @@ AfanOromo-AI-Assistant/
 ### Cloud Deployment
 Use cloud providers like AWS, Azure, or Google Cloud to host the backend, frontend, and vector database. Refer to the `deployment/cloud-config` directory for configuration files.
 
----
 
 ## Usage
 1. **Querying the Assistant**:
@@ -143,17 +137,14 @@ Use cloud providers like AWS, Azure, or Google Cloud to host the backend, fronte
 2. **Updating the Knowledge Base**:
    - Use the `POST /add-data` endpoint to upload new documents for indexing.
 
----
 
 ## Contributing
 Contributions are welcome! Please refer to the `CONTRIBUTING.md` file for guidelines on how to get started.
 
----
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
----
 
 ## Acknowledgments
 - Afan Oromo community and contributors.
